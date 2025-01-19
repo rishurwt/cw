@@ -1,0 +1,565 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 9vh;
+    width: 98.6vw;
+    display:flex ;
+    align-items: center;
+    background-color: aliceblue;
+    transition: background-color 0.3s;
+}
+header p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+#flip{
+    /* background-color: aqua; */
+    height: 9vh;
+    width: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+#dabba{
+    margin-left: 40px;
+    background-color: rgb(218, 249, 249);
+    height: 5vh;
+    width: 50vw;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* border-radius: 25%; */
+    /* border: solid; */
+}
+#searchname{
+    /* background-color: green; */
+    height: 5vh;
+    width: 100vw;
+}
+#searchname p{
+    margin-top: 8px;
+    
+    margin-left: 15px;
+   
+}
+ #voice{
+    margin-left: 350px;
+    margin-top: 3px;
+}
+#user{
+    margin-left: 35px;
+    margin-top: 14px;
+}
+#login{
+   
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#cicon{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+#cart{
+    margin-top: 15px;
+    margin-left: -30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#shopicon{
+    margin-left: 70px;
+    margin-top: 8px;
+}
+#shop{
+    margin-left: 8px;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#amountsec{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    height: 4vh;
+    width: 4vw;
+    /* background-color: aquamarine; */
+    border-color: blue;
+    border: solid;
+}
+#dollar{
+
+    margin-top: 5px;
+}
+#balance{
+    margin-top: -4px;
+    /* margin-left: 4px; */
+    font-size: 1.3em;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#page1{
+    height: 17vh;
+    width: 98.6vw;
+    margin-top: px7;
+    display: flex;
+    align-items: center;
+    
+    background-color: rgb(216, 230, 230);
+}
+#discount{
+    margin-left: 70px;
+    margin-top: -20px;
+    height: 10vh;
+    width: 8vh;
+}
+#discount a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+#mobile{
+    margin-left: 93px;
+    height: 10vh;
+    width: 8vh; 
+}
+#mobile a{
+    margin-left: -14px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+#laptops {
+  
+margin-left: 100px;
+height: 10vh;
+width: 8vh;
+}
+#laptops a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-decoration: none;
+     color: black;
+ }
+ #smwatch{ 
+    margin-top: -44px;
+    height: 3vh;
+    width: 7vw;
+    margin-left: 53px;
+    /* background-color: aquamarine; */
+ }
+     #smwatch a{
+        margin-left: -30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             text-decoration: none;
+             color: black;
+ }
+ #iron {
+  
+    margin-left: 95px;
+    height: 10vh;
+    width: 8vh;
+    }
+    #iron a{
+        /* margin-left: 0px; */
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         text-decoration: none;
+         color: black;
+     }
+    #fashion{
+        margin-top: -45px;
+        /* background-color: blue; */
+        margin-left: 90px;
+        height: 3vh;
+    width: 8vh;
+    }
+  
+    #fashion a{
+     
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         text-decoration: none;
+         color: black;
+     }
+     #beauty{
+        margin-top: -45px;
+        height: 3vh;
+        width: 5vw;
+        margin-left: 90px;
+        /* background-color: aquamarine; */
+     }
+     
+    #beauty a{
+    margin-left: -19px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         text-decoration: none;
+         color: black;
+     }
+     #furn{ 
+        margin-top: -45px;
+        height: 3vh;
+        width: 7vw;
+        margin-left: 70px;
+        /* background-color: aquamarine; */
+     }
+     
+    #furn a{
+    margin-left: -40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         text-decoration: none;
+         color: black;
+     }
+     #grocery{ 
+        margin-top: -45px;
+        height: 3vh;
+        width: 7vw;
+        margin-left: 47px;
+        /* background-color: aquamarine; */
+     }
+     
+    #grocery a{
+    margin-left: -37px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         text-decoration: none;
+         color: black;
+    }
+ 
+     #page2{
+        background-color: rgb(198, 232, 232);
+        margin-top: 10px;
+        height: 35vh;
+width: 98.6vw;
+object-fit: cover;
+     }
+     #page2 img{
+        height: 35vh;
+  width: 98.6vw;
+  border-radius: 0%;
+     }
+     /* #slideshoe{
+        height: 40vh;
+        width: 50vw;
+     } */
+     #space{
+        height: 10vh;
+        width: 98.4vw;
+        font-size: 2em;
+        margin-top: 8px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        color: rgb(11, 8, 8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid;
+        margin-bottom: .5px;
+        background-color: rgb(197, 233, 233);
+     }
+     #page3{
+        background-color: rgb(195, 224, 214);
+        height: 50vh;
+        
+        display: flex;
+        width: 98.6vw;
+     }
+   
+     #card1{
+       
+        margin-left: 10px;
+     }
+     a{
+        display: flex;
+        align-items: center;
+       justify-content: center;
+        text-decoration: none;
+        cursor: pointer;
+        color:black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+     p{
+        margin-left: 50px;
+        font-weight: 600;
+        cursor: pointer;
+     }
+     .card{
+        margin-top: 10px;
+        border: solid;
+        height: 45vh;
+        width: 25vw;
+       object-fit: cover;
+       border-radius: 20px;
+        margin-left: 40px;
+        object-fit: cover;
+        overflow: hidden;
+     }
+     /* .card img:hover{
+        zoom: .05;
+     }
+     .card :hover{
+        zoom: 1;
+     } */
+     .card img{
+
+        width: 100%;
+        height: 85%;
+        cursor: pointer;
+        /* margin-left: 8px;
+        margin-top: 5px; */
+        /* border: solid; */
+        /* border-color: aqua; */
+     }
+     #page4{
+        height: 45vh;
+        width: 98.6vw;
+        background-color: rgb(151, 93, 17);
+        display: flex;
+        align-items: center;
+     }
+     #page4 img{
+      border-radius: 20px;
+      height: 36vh;
+      width: 10vw;
+     }
+     #page4 a{
+      margin-left: 20px;
+        height: 8vh;
+        width: 14vw;
+        /* background-color: antiquewhite; */
+        font-size: 1.7em;
+        font-weight: 700;
+        text-decoration: none;
+        color: white;
+      
+     } 
+     #text1 p{
+  
+        margin-top: 50px;
+        height: 2vh;
+        width: 14vw;
+        /* background-color: antiquewhite; */
+        font-size: 1.7em;
+        font-weight: 600;
+        
+     } 
+     #text2 p{
+        margin-top: 50px;
+        height: 2vh;
+        width: 14vw;
+        /* background-color: antiquewhite; */
+        font-size: 1.5em;
+        font-weight: 600;
+     } 
+     #text3 p{
+        /* border: solid; */
+        margin-top: 50px;
+        height: 2vh;
+        width: 14vw;
+        /* background-color: antiquewhite; */
+        font-size: 1.5em;
+        font-weight: 600;
+        
+     } 
+     #text4 p{
+        margin-top: 50px;
+        height: 2vh;
+        width: 14vw;
+        /* background-color: antiquewhite; */
+        font-size: 1.5em;
+        font-weight: 600;
+     } 
+     
+     .box{
+        height: 27vh;
+        width: 15vw;
+        /* border: solid; */
+       /* margin-right: 2px; */
+     }
+     .boximg{
+        height: 35.5vh;
+        width: 24vw;
+        border: solid;
+        border-radius: 20px;
+        /* margin-right: 4px; */
+        object-fit: cover;
+        overflow: hidden;
+     }
+     .boxing:hover{
+      animation-fill-mode: both
+     }
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+}
+
+.wrapper,
+.slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  overflow: hidden;
+}
+
+.slide::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.slide .image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.slide .image-data {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  z-index: 100;
+}
+
+.image-data span.text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.image-data h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #fff;
+}
+
+a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #333;
+  background: #fff;
+  text-decoration: none;
+  margin-top: 25px;
+  transition: all 0.3s ease;
+}
+
+a.button:hover {
+  color: #fff;
+  background-color: #c87e4f;
+}
+
+/* swiper button css */
+.nav-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.nav-btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.swiper-button-next {
+  right: 50px;
+}
+
+.swiper-button-prev {
+  left: 50px;
+}
+
+.nav-btn::before,
+.nav-btn::after {
+  font-size: 25px;
+  color: #fff;
+}
+
+.swiper-pagination-bullet {
+  opacity: 1;
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  visibility: hidden;
+}
+
+.swiper-pagination-bullet-active {
+  border: 2px solid #fff;
+  background-color: #c87e4f;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-btn {
+    visibility: hidden;
+  }
+
+  .swiper-pagination-bullet {
+    visibility: visible;
+  }
+}
+     /* #page5{
+        margin-top: 20px;
+        background-color: rgb(160, 226, 213);
+        height: 45vh;
+        width: 100wh;
+        display: flex;
+        align-items: center;
+     }
+     page5 img{
+        height: 420px;
+        width: 150px;
+     }
+    .ps5{
+        height: 85% ;
+        width: 12.5vw;
+        border-color: salmon;
+        border: solid;
+        margin-left: 16px;
+        object-fit: cover;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(195, 195, 197);
+    }
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+       */
+       /* #page3 {
+        background-color: rgb(195, 224, 214);
+        height: 45vh;
+        display: flex;
+        width: 98.6vw;
+        position: relative; /* Makes it a containing block for absolute elements */
+      /* }
+      
+   
